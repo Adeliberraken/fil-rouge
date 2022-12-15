@@ -1,0 +1,117 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	margin: 0 auto;
+}
+
+/*Entête de page*/
+
+.header {
+	display: flex;
+	align-items: center;
+	
+}
+
+.header img {
+	width: 200px;
+}
+
+section.haut-de-la-page {
+	height: 800px;
+	background-image: url("../img1/image_de_fond.png");
+	background-size: cover;
+	height: 80vh;
+	padding: 25px;
+}
+
+/*page d'accueil*/
+
+.gros-titre {
+	color: white;
+	font-size: 60px;
+	padding: 0px 0px 0px 300px;
+}
+
+/*Menu*/
+
+nav.menu-de-navigation {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 400px;
+	margin-left: 300px;
+
+}
+
+nav.menu-de-navigation li {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+
+/*Services-de-l'entreprise*/
+
+img {
+	width: 50px;
+	align-items: center;
+}
+
+.services {
+	display: flex;
+	margin: 50px;
+	justify-content: space-evenly;
+	width: 100;
+}
+
+.details-ecriture {
+	font-size: 20px;
+	font-weight: bold;
+	width: 200px;
+}
+
+/*Nos meilleures ventes*/
+
+.section-titre {
+	font-size: 50px;
+	font-weight: bold;
+	padding: 50px;
+}
+
+.photos {
+	display: flex;
+	justify-content: space-evenly;
+	
+
+}
+
+.img1 {
+	align-items: center;
+	width: 200px;
+}
+
+.details-ecriture2 {
+	font-size: 20px;
+	font-weight: bold;
+	width: 200px;
+}
+
+/*pied de page*/
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 100px;
+	font-weight: bold;
+	background-color:azure
+}
+
+.logo {
+	height: 100px;
+	width: 150px;
+	
+}
